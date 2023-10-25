@@ -12,12 +12,12 @@ def deploy(String branch_name) {
 
 def build() {
   println "Building..."
-  bat '"C:\\Users\\abdul\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\pip.exe" install -r requirements.txt'
+  bat 'pip install -r requirements.txt'
 }
 
 def test() {
   println "Testing..."
-  bat '"C:\\Users\\abdul\\AppData\\Local\\Programs\\Python\\Python311\\python.exe" test.py'
+  bat 'python test.py'
 }
 
 
